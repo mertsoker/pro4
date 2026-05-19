@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM amazoncorretto:25
 WORKDIR /app
 COPY build/libs/*.jar app.jar
 EXPOSE 8081
